@@ -1,0 +1,57 @@
+.code_text {
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.input_container {
+  display: inline-block;
+  background-color: #e7f2ea;
+  border: 1px solid #abcbbc;
+  text-align: center;
+  padding: 10px;
+}
+
+.input_form {
+  margin-bottom: 0;
+}
+
+.input_textarea {
+  width: 320px;
+  height: 355px;
+  border: 0;
+  font-family: monospace;
+}
+
+.output_container {
+  display: inline-block;
+  background-color: #e7f2ea;
+  border: 1px solid #abcbbc;
+  vertical-align: top;
+  padding:10px;
+}
+
+.output_form {
+  width: 320px;
+  height: 355px;
+  background-color: white;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.spacer{
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 375px;
+}
+#run-button{
+  display:inline-block;
+}
+
+#output {
+  margin-top:10px;
+}
+
+#yourcode {
+  padding: 10px;
+}

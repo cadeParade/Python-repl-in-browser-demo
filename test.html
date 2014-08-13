@@ -1,0 +1,34 @@
+<html>
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+  <script src="static/js/skulpt.min.js" type="text/javascript"></script>
+  <script src="static/js/skulpt-stdlib.js" type="text/javascript"></script>
+  <script src="static/js/page.js" type="text/javascript"></script>
+  <link href="static/css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+<div>
+  <div class='input_container'>
+      <form class='input_form'>
+        <textarea id="yourcode" class='input_textarea code_text'>
+print "Hello World"
+for i in range(5):
+    print(i)
+        </textarea>
+      </form>
+  </div>
+  <div class='spacer'><!--spacer -->
+    <div id='run-button'><button type="button" onclick="runit()">Run</button></div>
+  </div><!-- end spacer -->
+  <div class='output_container'>
+    <div class='output_form'>
+      <pre id="output" class="code_text"></pre>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
