@@ -1,4 +1,6 @@
-Taken straight from the Skulpt homepage: http://www.skulpt.org/
+![Image](http://i.imgur.com/vQbwZX8.png)
+
+Code taken straight from the Skulpt homepage: http://www.skulpt.org/
 
 Nice things to add:
 syntax highlighting
